@@ -41,8 +41,11 @@
           <a class="nav-link js-scroll-trigger" href="#about">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#experience">Projects</a>
+          <a class="nav-link js-scroll-trigger" href="#experience">Personal Projects</a>
         </li>
+        <!-- <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="/portfolio">Full Portfolio</a>
+        </li> -->
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#education">Education</a>
         </li>
@@ -69,7 +72,7 @@
         <div class="subheading mb-5">Silicon Valley, CA· (209) 988-6811 ·
           <a href="mailto:jonposo@gmail.com">jonposo@gmail.com</a>
         </div>
-        <p class="lead mb-5">Hello there! I am a self-taught software engineer and full stack web developer. I attended San Jose State University on a Piano Performance Scholarship and graduated in 2010 with a English Literature degree. Throughout my twenties I held multiple management positions in the hospitality field before discovering my passion for coding. I spent over a year learning and exploring different technologies and eventually decided to enroll in a coding bootcamp to hone my skills where I learned three full technology stacks within three months.</p>
+        <p class="lead mb-5">Hello there! I am a self-taught software engineer and full stack web developer. I attended San Jose State University on a Piano Performance Scholarship and graduated in 2010 with a English Literature degree. I held multiple management positions in the hospitality field for seven years before discovering my passion for coding. I spent over a year learning and exploring different technologies and eventually decided to enroll in a coding bootcamp to hone my skills where I learned three full technology stacks within three months. Since then, i have spent the last year and a half working as a free-lance developer working on projects as well as honing my skills.</p>
         <p class= "lead mb-5">I have a passion for learning and I have discovered coding gives me the same sense of wonder that music has for my entire life. Currently, I am looking for a role with a great team that will provide me with a chance to expand my developing skills and give me the opportunity to contribute in a meaningful way.</p>
         <!-- <p class= "lead mb-5">  <a href="/static/personal_page/resume/Jonathan Poso - Resume.pdf">Resume</a></p> -->
         <div class="social-icons">
@@ -91,7 +94,9 @@
 
     <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
       <div class="w-100">
-        <h2 class="mb-5">Personal Projects</h2>
+        <h2 class="mb-5">Personal Projects
+          <!-- <span style="font-size: 20px;"><a href="/portfolio">See Full Portfolio</a></span> -->
+        </h2>
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
@@ -100,8 +105,12 @@
             <ul>
               <li>Helps users prioritize their tasks by providing a multitude of resources (videos, articles, links).</li>
               <li>Created in 10 hours with a team of three. Implemented the YouTube APIs and custom search options.</li>
-              <li>Made with Python, Django, jQuery, Materialize, NGINX, CSS, mySQL, Google Custom Search, YouTube and Facebook Login API</li>
-              <li>Deployed using AWS</li>
+              <li>Wrote all Back-End code that made use of the YouTube API to retrieve and display the results of the query made by user.</li>
+              <li>Created a query filter of "how to" for each search.</li>
+              <li>Created the carousel display for video results.</li>
+              <li><strong>What I learned:</strong> How to collaberate with a small team to build a project in a short amount of time. Strengthened my knowledge of using RESTful APIs to GET, POST, PUT and DELETE data that was used in making the site.</li>
+              <li>Made with Python, Django, jQuery, Materialize, NGINX, CSS, mySQL, Google Custom Search, YouTube and Facebook Login API.</li>
+              <li>Deployed using AWS.</li>
               <li>Python Hack-a-thon First Place Award.</li>
             </ul>
           </div>
@@ -118,7 +127,8 @@
               <li>Created in 10 hours with a team of four. iOS Hack-a-thon First Place Award.</li>
               <li>A unique alarm that enables the user to wake up by utilizing Apple’s Core Motion.</li>
               <li>The alarm does not stop until the user rotates the device based on a randomly generated prompt.</li>
-              <li>Made with Swift & Xcode</li>
+              <li><strong>What I learned:</strong> Strengthened my knowlede of Swift and Xcode. How to trigger events in Xcode using Apple's Core Motion.</li>
+              <li>Made with Swift & Xcode.</li>
               <li>iOS Hack-a-thon First Place Award.</li>
             </ul>
           </div>
@@ -129,12 +139,34 @@
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
+            <h3 class="mb-0">NathanandLaura.com</h3>
+            <div class="subheading mb-3"><a href="http://www.nathanandlaura.com">Visit</a></div>
+            <ul>
+              <li>Wedding website built from sctratch (Front-End and Back-End).</li>
+              <li>Visited by approximately 150 people.</li>
+              <li>Guests we able to RSVP, view and book local hotels, read information about activities to do locally and visit the couples' registry.</li>
+              <li><strong>What I learned:</strong> Gained a lot of experience in Front-End development as well as working closly with a client to build based on their specifications in a timely manner.</li>
+              <li>Made with Python, Django, NGINX, HTML, CSS, Gunicorn and JavaScript.</li>
+              <li>Deployed using AWS.</li>
+            </ul>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary"></span>
+          </div>
+        </div>
+
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
             <h3 class="mb-0">Barry's Berries</h3>
             <div class="subheading mb-3"><a href="https://www.youtube.com/watch?v=NhdO8e9nObc&feature=youtu.be">Video Demo</a>  |  <a href="/barry">Screenshots</a></div>
             <ul>
               <li>Children’s game built for iOS.</li>
               <li>The player has a limited amount of time to find all of the berries generated randomly using the iOS Mapkit. </li>
               <li>The game is won if time does not expire and the player finds more good berries than bad.</li>
+              <li>Created a timed event that would trigger a pop-up that would display either a "Happy Barry Face" if a good berry was selected and a "Sick Barry Face" if a bad berry was selected.</li>
+              <li>Created a filter for Mapkit so that the displayed points of interest would be "kid-friendly."</li>
+              <li><strong>What I learned:</strong> How to use iOS Mapkit to retreive user's location and other points of interest in user's area.</li>
               <li>Made with Swift & Xcode</li>
               <li>iOS Hack-a-thon First Place Award.</li>
             </ul>
@@ -150,9 +182,23 @@
             <div class="subheading mb-3"><a href="spotify:artist:0MLKfDfrr2LvUqZxBvYLTv">Spotify Page</a></div>
             <ul>
                 <li>Keyboard and Synth Player in a band of four.</li>
-              <li>Self-managed</li>
+              <li>Self-managed.</li>
               <li>Featured on Sirius XM and Alt Nation 105.3.</li>
               <li>Similar to a start-up, there is a lot of trial and error, competition, investment, a lot of work, and collaboration.</li>
+            </ul>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary"></span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">This Website!</h3><br>
+            <ul>
+              <li>Made with Python, SCSS, HTML, NGINX, Gunicorn, Django, JavaScript and jQuery.</li>
+              <li>Deployed using AWS.</li>
+              <li><strong>What I learned:</strong> Strengthened knowledge of Python/Django as well as deployment using AWS. Implementation and editing of a Bootstrap design template to fit my desired specifications.</li>
             </ul>
           </div>
           <div class="resume-date text-md-right">
@@ -282,6 +328,9 @@
           <li>
             <i class="fa-li fa fa-check"></i>
             Back-End Development</li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Python &amp; Django</li>
           <li>
             <i class="fa-li fa fa-check"></i>
             Restful APIs</li>
