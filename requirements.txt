@@ -11,7 +11,7 @@ django>=1.11.19
 docopt==0.6.2
 enum34==1.1.6
 futures==3.2.0
-httplib2==0.11.3
+httplib2==0.19.0
 idna==2.7
 ipaddress==1.0.22
 macholib==1.5.1
